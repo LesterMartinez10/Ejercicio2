@@ -20,7 +20,7 @@ for ($x=0; $x<$tam; $x++)
 
 if ($estado)
 {
-	echo "user acepto la contraseña";
+	header("location:ventas.html");
 }
 else
 {
